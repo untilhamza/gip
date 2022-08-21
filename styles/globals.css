@@ -24,3 +24,17 @@ a {
     background: black;
   }
 }
+
+.logo-image {
+  width: 4rem;
+  height: 3rem;
+  padding: 0.2rem;
+  filter: invert(55%) sepia(14%) saturate(23) hue-rotate(-45deg)
+    brightness(119%) contrast(86%);
+}
+.logo-image:hover {
+  transform: scale(1.2);
+}
+.nav-bar {
+  height: 3.5rem;
+}
