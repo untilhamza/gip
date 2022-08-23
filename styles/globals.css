@@ -35,3 +35,6 @@ a {
 .logo-image:hover {
   transform: scale(1.2);
 }
+textarea {
+  resize: none;
+}
