@@ -35,6 +35,6 @@ a {
 .logo-image:hover {
   transform: scale(1.2);
 }
-.nav-bar {
-  height: 3.5rem;
+textarea {
+  resize: none;
 }

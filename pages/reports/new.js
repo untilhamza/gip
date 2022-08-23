@@ -2,10 +2,20 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Row, Col } from "react-bootstrap";
+import styled from "styled-components";
+
+const members = [
+  { name: "", isPresent: true },
+  { name: "", isPresent: true },
+  { name: "", isPresent: true },
+  { name: "", isPresent: false },
+  { name: "", isPresent: false },
+  { name: "", isPresent: true },
+];
 
 const New = () => {
   return (
-    <div className="container">
+    <FormPage className="">
       <Form>
         <fieldset>
           <Form.Group className="mb-3">
@@ -24,7 +34,7 @@ const New = () => {
             (item) => (
               <Form.Group className="mb-3" controlId={item} key={item}>
                 <Form.Label>{item}</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+                <Form.Control as="textarea" rows={4} cols={33} />
               </Form.Group>
             )
           )}
@@ -41,8 +51,13 @@ const New = () => {
           </div>
         </fieldset>
       </Form>
-    </div>
+    </FormPage>
   );
 };
 
 export default New;
+
+const FormPage = styled.div`
+  max-width: 45rem;
+  margin: 0 auto;
+`;
