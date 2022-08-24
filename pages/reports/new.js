@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
+import GeneralPage from "../../components/GenPage";
 
 const members = [
   { name: "", isPresent: true },
@@ -15,7 +16,7 @@ const members = [
 
 const New = () => {
   return (
-    <FormPage className="">
+    <GeneralPage className="">
       <Form>
         <fieldset>
           <Form.Group className="mb-3">
@@ -51,13 +52,8 @@ const New = () => {
           </div>
         </fieldset>
       </Form>
-    </FormPage>
+    </GeneralPage>
   );
 };
 
 export default New;
-
-const FormPage = styled.div`
-  max-width: 45rem;
-  margin: 0 auto;
-`;
