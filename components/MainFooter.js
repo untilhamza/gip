@@ -7,7 +7,9 @@ const MainFooter = () => {
       backgroundColor="seafoam-600"
       gridArea="footer"
       isHidden={{ base: true, M: false }}
-    />
+    >
+      @Hamza productions
+    </View>
   );
 };
 
