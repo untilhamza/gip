@@ -34,7 +34,7 @@ const MainLayout = ({ children }) => {
         L: ["size-3000", "1fr", "size-3000"],
       }}
       rows={{
-        base: ["size-600", "auto", "size-600"],
+        base: ["size-700", "auto", "size-600"],
         M: ["size-600", "auto", "size-100"],
       }}
       gap="size-100"
