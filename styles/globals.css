@@ -27,10 +27,15 @@ a {
 
 .logo-image {
   width: 4rem;
-  height: 3rem;
+  height: 4rem;
   padding: 0.2rem;
   filter: invert(55%) sepia(14%) saturate(23) hue-rotate(-45deg)
     brightness(119%) contrast(86%);
+}
+@media (min-width: 799px) {
+  .logo-image {
+    height: 3rem;
+  }
 }
 .logo-image:hover {
   transform: scale(1.2);
