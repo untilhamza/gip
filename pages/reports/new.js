@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
-import GeneralPage from "../../components/GenPage";
+import GeneralPage from "../../components/GeneralPage";
 
 const members = [
   { name: "", isPresent: true },
