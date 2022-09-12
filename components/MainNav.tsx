@@ -65,12 +65,7 @@ const MainNav = () => {
               <NavLink href={item.link}>
                 <NavAnchor>
                   <Flex alignItems="center">
-                    <View>
-                      <IconContext.Provider value={{ className: "nav-icon" }}>
-                        {item.icon}
-                      </IconContext.Provider>
-                    </View>
-
+                    <View>{item.icon}</View>
                     <Text
                       marginStart={"size-300"}
                       isHidden={{ base: true, M: false }}
