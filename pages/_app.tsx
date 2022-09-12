@@ -4,6 +4,9 @@ import MainLayout from "../components/MainLayout";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
+
+//TODO: you can put your global state here...
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <SSRProvider>
